@@ -85,7 +85,7 @@ MongoClient.connect(url, function(err,client){
 	/*getParallel(function(result){
 		res.json(result);
 	})*/
-	async.parallel(stack,function(err,result){
+	async.parallel(stack,function(err,result){   // hi sunil!! tried many ways but not getting how to go farword !
 		console.log(result);
 	});
 	
