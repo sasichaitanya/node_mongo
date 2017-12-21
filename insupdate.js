@@ -42,7 +42,7 @@ MongoClient.connect(url,function(err,client){
 
 	const db=client.db(dbName);
 
-	insertDocuments(db,function(){
+	insertDocuments(db,function(){      
 		updateDocuments(db,function(){
 			client.close();
 		});
